@@ -198,6 +198,7 @@ class _NewExpenseState extends State<NewExpense> {
     );
   }
 
+
   @override
   Widget build(context) {
     final keyboardSpace = MediaQuery.of(context).viewInsets.bottom;
