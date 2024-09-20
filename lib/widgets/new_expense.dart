@@ -93,7 +93,7 @@ class _NewExpenseState extends State<NewExpense> {
         amountIsInvalid ||
         _selectedDate == null ||
         _addressController.text.trim().isEmpty) {
-          _showDialog();
+      _showDialog();
       return;
     }
     // Add functionality - Use class constructor to get its value for each properties.
@@ -197,7 +197,6 @@ class _NewExpenseState extends State<NewExpense> {
       child: const Text('Save Expense'),
     );
   }
-
 
   @override
   Widget build(context) {
